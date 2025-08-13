@@ -8,8 +8,7 @@ The format we need is tax_id,parent_id,rank,tax_name,root,domain,phylum,class,or
 import os
 import sys
 import argparse
-from simple_ncbi_taxonomy import load_ncbi_taxonomy
-from roblib import bcolors
+from simple_ncbi_taxonomy import load_ncbi_taxonomy, bcolors
 __author__ = 'Rob Edwards'
 
 
